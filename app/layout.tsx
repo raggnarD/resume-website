@@ -24,6 +24,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <head>
+        {/* index/follow keeps search engines indexing the resume for recruiters;
+            noai/noimageai/notrain signals AI scrapers to skip training on the content. */}
+        <meta
+          name="robots"
+          content="index, follow, noai, noimageai, notrain, max-image-preview:large"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(){try{var t=localStorage.getItem('theme');var d=t?t==='dark':true;document.documentElement.classList.toggle('dark',d);}catch(e){}})();`,

@@ -1,9 +1,7 @@
 export const profile = {
   name: 'James W. Kocher',
   title: 'Sr. Technical Product Manager — Builder',
-  location: 'Berkeley Heights, NJ',
   email: 'james.kocher@gmail.com',
-  phone: '201-724-4603',
   links: {
     website: 'https://www.jameskocher.com',
     github: 'https://github.com/raggnarD',
