@@ -28,6 +28,7 @@ const config: Config = {
           DEFAULT: 'rgb(var(--c-accent) / <alpha-value>)',
           soft: 'rgb(var(--c-accent-soft) / <alpha-value>)',
         },
+        brand: '#ff5e1a',
       },
       fontFamily: {
         sans: ['"Source Sans 3"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
