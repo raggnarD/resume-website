@@ -1,7 +1,6 @@
 export const profile = {
   name: 'James W. Kocher',
   title: 'Sr. Technical Product Manager — Builder',
-  email: 'james.kocher@gmail.com',
   links: {
     website: 'https://www.jameskocher.com',
     github: 'https://github.com/raggnarD',
